@@ -1,0 +1,51 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    import java.util.Scanner;
+
+    class Main {
+        public static void main(String[] args) {
+            Scanner scanner = new Scanner(System.in);
+            // start coding here
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2153#comment
+status: Failed
+feedback:
+  message: |
+    Failed test #1 of 9. Runtime error
+
+    This is a sample test from the problem statement!
+
+    Test input:
+    1
+    2
+    3
+    4
+    0
+    Correct output:
+    odd
+    even
+    odd
+    even
+
+
+    Your code output:
+    1
+    odd
+    2
+    even
+    3
+    odd
+    4
+    even
+    0
+    0
+
+    Error:
+  time: "Tue, 14 Mar 2023 13:10:44 UTC"
+record: -1
+submission_language: java17

@@ -1,0 +1,27 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: "Both keywords can be written in a body of <b>for</b>, <b>while</b> and <b>do-while</b>\
+    \ loops."
+- text: The keyword <b>continue</b> cannot be written in a body of <b>while</b> and
+    <b>do-while</b> loops.
+- text: The keyword <b>break</b> can be written in a body of <b>while</b> and <b>do-while</b>
+    loops.
+- text: The keywords <b>break</b> and <b>continue</b> can be written in the conditional
+    statement <b>if-else</b>.
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2152#comment
+status: Solved
+record: -1
+local_check: false
